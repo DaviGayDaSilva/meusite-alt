@@ -13,9 +13,14 @@ body{
 .conteudo{
     display: table;
 }
-.imagem{
-    display: table-cell;
-    
+.imagem {
+  display: block;
+  max-width: 100%;
+  background-image: url('icone.png'); 
+  background-repeat: no-repeat;
+  background-position: 10px 10px; 
+  background-size: 32px 32px; 
+  content: url('foto.jpg'); 
 }
 .texto{
     display: table-cell;
